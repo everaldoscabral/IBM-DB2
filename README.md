@@ -95,3 +95,4 @@ u)
 * {$DB2_PASSWORD}
 * {$DB2_USER}
 * {$DSN1} (mesmo nome da estância)
+* 
