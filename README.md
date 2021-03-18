@@ -43,6 +43,7 @@ passamos os dados de conexão.
 
 vim /home/db2/db2inst/sqllib/cfg/db2cli.ini
 
+
 [TOOLSDB]
 
 Database = TOOLSDB (nomedaestancia)
@@ -59,18 +60,29 @@ Agora iremos editar os parâmetros de conexão ODBC.
 
 vim /etc/odbc.ini
 
+
 [TOOLSDB]
+
 Description = DB2 Driver
+
 Driver = DB2
+
 Server = IP do Servidor DB2
+
 vim /etc/odbcinst.ini
 
+
 [DB2]
+
 Description = DB2 Driver
+
 Driver = /opt/ibm/db2/V11.1/lib32/libdb2.so
 
+
 Driver64 = /opt/ibm/db2/V11.1/lib64/libdb2.so
+
 FileUsage = 1
+
 DontDLClose = 1
 
 Por último executar:
