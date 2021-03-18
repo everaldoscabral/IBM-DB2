@@ -44,9 +44,13 @@ passamos os dados de conexão.
 vim /home/db2/db2inst/sqllib/cfg/db2cli.ini
 
 [TOOLSDB]
+
 Database = TOOLSDB (nomedaestancia)
+
 Protocol = TCPIP
+
 Hostname = IP do Servidor DB2
+
 ServiceName = 50000 (porta de conexão)
 
 # 6 – Editando os parâmetros de conexão ODBC
@@ -95,4 +99,3 @@ u)
 * {$DB2_PASSWORD}
 * {$DB2_USER}
 * {$DSN1} (mesmo nome da estância)
-* 
