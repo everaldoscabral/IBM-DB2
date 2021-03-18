@@ -41,12 +41,9 @@ Vamos criar um Usuário específico para o monitoramento.
 O monitoramento do DB2 tem uma peculariadade, ele faz uma chamada de um outro arquivo que é onde
 passamos os dados de conexão.
 
-
 vim /home/db2/db2inst/sqllib/cfg/db2cli.ini
 
-
 [TOOLSDB]
-
 
 Database = TOOLSDB (nomedaestancia)
 
@@ -86,6 +83,7 @@ Driver64 = /opt/ibm/db2/V11.1/lib64/libdb2.so
 FileUsage = 1
 
 DontDLClose = 1
+
 
 Por último executar:
 
