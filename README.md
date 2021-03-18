@@ -4,6 +4,7 @@ Neste tutorial vamos abordar as etapas de como monitorar o banco de dados DB2 da
 # 1 – Instalação do UnixODBC
  
 De início devemos instalar o pacote UnixODBC, lembrando que devemos está com permissão de “root”.
+
 yum install -y unixODBC
 
 # 2 – Baixando o pacote de Instalação do DB2
