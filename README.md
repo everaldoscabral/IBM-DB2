@@ -98,15 +98,14 @@ isql -v nomedaestanacia usuario senha
 
 Se o teste de conexão tiver êxito receberá a mensagem abaixo:
 
-IMAGEM!
+DB2_ISQL.PNG
 
 # 8 – Associando o host ao Template
 
 Após criarem o host é necesário passar alguns parâmetros como macro no host. E devemos associar o host ao
 template TEMPLATE-IBM-DB2
 
-(https://www.facebook.com/download/475123866226854/zbx_export_templates.xml?hash=Acp_IlJHPkByUGe
-u)
+(https://github.com/everaldoscabral/IBM-DB2/blob/main/TEMPLATE-IBM-DB2.xml)
 
 * {$DB2_PASSWORD}
 * {$DB2_USER}
