@@ -106,7 +106,7 @@ Após criarem o host é necesário passar alguns parâmetros como macro no host.
 template TEMPLATE-IBM-DB2
 
 (https://github.com/everaldoscabral/IBM-DB2/blob/main/TEMPLATE-IBM-DB2.xml)
-!(TEMPLATE-IBM-DB2.xml)
+
 * {$DB2_PASSWORD}
 * {$DB2_USER}
 * {$DSN1} (mesmo nome da estância)
