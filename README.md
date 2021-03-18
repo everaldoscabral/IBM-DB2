@@ -31,10 +31,10 @@ vim /etc/hosts e adicionar 127.0.0.1 NomedoHost
 
 Vamos criar um Usuário específico para o monitoramento.
 
-mkdir -p /home/db2
-adduser -m -d /home/db2/db2inst db2inst
-passwd db2inst (informar uma senha para o usuário)
-/opt/ibm/db2/V11.1/instance/db2icrt db2inst
+* mkdir -p /home/db2
+* adduser -m -d /home/db2/db2inst db2inst
+* passwd db2inst (informar uma senha para o usuário)
+* /opt/ibm/db2/V11.1/instance/db2icrt db2inst
 
 # 5 – Editando os Arquivos de conexão ODBC
 
@@ -42,6 +42,7 @@ O monitoramento do DB2 tem uma peculariadade, ele faz uma chamada de um outro ar
 passamos os dados de conexão.
 
 vim /home/db2/db2inst/sqllib/cfg/db2cli.ini
+
 
 [TOOLSDB]
 Database = TOOLSDB (nomedaestancia)
