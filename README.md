@@ -13,6 +13,7 @@ Para facilitar criei um repositório com o pacote de Instalação e vamos descom
 direto do site da IBM (https://www-304.ibm.com/support/docview.wss?uid=swg21418043)
 
 wget servicos.itpsolucoes.com.br/downloads/ibm_data_server_runtime_client_linuxx64_v11.1.tar.gz
+
 tar xvf ibm_data_server_runtime_client_linuxx64_v11.1.tar.gz
 
 # 3 – Realizando a Instalação do DB2
@@ -91,6 +92,6 @@ template TEMPLATE-IBM-DB2
 (https://www.facebook.com/download/475123866226854/zbx_export_templates.xml?hash=Acp_IlJHPkByUGe
 u)
 
-*{$DB2_PASSWORD}
-*{$DB2_USER}
-*{$DSN1} (mesmo nome da estância)
+* {$DB2_PASSWORD}
+* {$DB2_USER}
+* {$DSN1} (mesmo nome da estância)
