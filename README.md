@@ -43,7 +43,6 @@ passamos os dados de conexão.
 
 vim /home/db2/db2inst/sqllib/cfg/db2cli.ini
 
-
 [TOOLSDB]
 Database = TOOLSDB (nomedaestancia)
 Protocol = TCPIP
