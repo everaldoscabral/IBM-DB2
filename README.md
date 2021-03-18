@@ -94,7 +94,7 @@ export DB2INSTANCE="db2inst"
 Após realizarmos todas as configurações chegou o momento de realizarmos o teste de conexão. Lembrando que,
 o Usuário e Senha é de conexão do banco, sugerido que o Usuário tenha permissão FULL de consulta.
 
-isql -v nomedaestanacia usuario senha
+isql -v nomedaestancia usuario senha
 
 Se o teste de conexão tiver êxito receberá a mensagem abaixo:
 
@@ -106,7 +106,7 @@ Após criarem o host é necesário passar alguns parâmetros como macro no host.
 template TEMPLATE-IBM-DB2
 
 (https://github.com/everaldoscabral/IBM-DB2/blob/main/TEMPLATE-IBM-DB2.xml)
-
+!(TEMPLATE-IBM-DB2.xml)
 * {$DB2_PASSWORD}
 * {$DB2_USER}
 * {$DSN1} (mesmo nome da estância)
