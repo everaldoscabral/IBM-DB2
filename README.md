@@ -2,7 +2,7 @@
 Neste tutorial vamos abordar as etapas de como monitorar o banco de dados DB2 da IBM através do Zabbix.
 
 # 1 – Instalação do UnixODBC
-* 
+ 
 De início devemos instalar o pacote UnixODBC, lembrando que devemos está com permissão de “root”.
 yum install -y unixODBC
 
@@ -90,6 +90,6 @@ template TEMPLATE-IBM-DB2
 (https://www.facebook.com/download/475123866226854/zbx_export_templates.xml?hash=Acp_IlJHPkByUGe
 u)
 
-{$DB2_PASSWORD}
-{$DB2_USER}
-{$DSN1} (mesmo nome da estância)
+*{$DB2_PASSWORD}
+*{$DB2_USER}
+*{$DSN1} (mesmo nome da estância)
