@@ -98,7 +98,7 @@ isql -v nomedaestancia usuario senha
 
 Se o teste de conexão tiver êxito receberá a mensagem abaixo:
 
-![DB2_ISQL.PNG](DB2_ISQL.PNG)
+![DB2_ISQL.png](DB2_ISQL.png)
 
 # 8 – Associando o host ao Template
 
