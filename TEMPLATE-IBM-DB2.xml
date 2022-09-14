@@ -1362,11 +1362,11 @@
             <macros>
                 <macro>
                     <macro>{$DB2_PASSWORD}</macro>
-                    <value>itpmonitor</value>
+                    <value>PASSWORD</value>
                 </macro>
                 <macro>
                     <macro>{$DB2_USER}</macro>
-                    <value>itpmonitor</value>
+                    <value>USER</value>
                 </macro>
                 <macro>
                     <macro>{$DSN1}</macro>
