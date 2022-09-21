@@ -12,8 +12,6 @@ yum install -y unixODBC
 Para facilitar criei um repositório com o pacote de Instalação e vamos descompactar. Mas pode ser baixado
 direto do site da IBM (https://www-304.ibm.com/support/docview.wss?uid=swg21418043)
 
-wget servicos.itpsolucoes.com.br/downloads/ibm_data_server_runtime_client_linuxx64_v11.1.tar.gz
-
 tar xvf ibm_data_server_runtime_client_linuxx64_v11.1.tar.gz
 
 # 3 – Realizando a Instalação do DB2
